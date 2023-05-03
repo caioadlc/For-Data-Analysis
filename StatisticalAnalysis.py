@@ -23,7 +23,7 @@ for i in range(len(df1)):
     x.append(df1[i][0])
     y.append(df1[i][1])
 
-
+    
 #Fit and Uncertainty
 
 #Function to be fit
