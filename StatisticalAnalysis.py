@@ -23,13 +23,6 @@ for i in range(len(df1)):
     x.append(df1[i][0])
     y.append(df1[i][1])
 
-#Settings for plotting
-plt.figure(figsize=(18,12))
-plt.scatter(x,y,color='red')
-plt.xlabel('$V_{AC}$(V)')
-plt.ylabel('$h$(cm)')
-plt.title('Tensão x Altura')
-plt.show()
 
 #Fit and Uncertainty
 
