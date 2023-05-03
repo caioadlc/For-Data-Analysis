@@ -9,7 +9,7 @@ from scipy.stats import chisquare
 #from google.colab import drive
 #drive.mount('/content/drive')
 
-df = pd.read_csv('./testes.csv')
+df = pd.read_csv('./dados.csv')
 #one=df.pop("Medida")#GET THE COLUMN THAT HAS THE NAME "MEDIDA"
 df=df.drop(index=[3,4,5])
 df1=df.to_numpy()#TAKE ALL FLOATTING-POINT VALUES OF DATA FRAME
@@ -23,7 +23,7 @@ for i in range(len(df1)):
     x.append(df1[i][0])
     y.append(df1[i][1])
 
-    
+
 #Fit and Uncertainty
 
 #Function to be fit
